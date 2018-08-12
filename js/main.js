@@ -75,7 +75,7 @@ workTime();
 
 //Функция дисконтной системы
 function discountCalc() {
-	if(mainList.discount == true) {
+	if(mainList.discount === true) {
 		let discountPrice = (80 / 100) * price; //Устанавливаем скиду в 80%
 		console.log(discountPrice);
 	}
